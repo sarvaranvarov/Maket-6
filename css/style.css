@@ -53,8 +53,12 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
 }
+.plants .container {
+    display: flex;
+}
 .plants_boxtext {
-    width: 55%;
+    margin-top: 100px;
+    width: 50%;
 }
 .plants_title {
     width: 75%;
@@ -63,4 +67,22 @@ body {
 }
 .plants_text {
     font-size: 16px;
+    width: 75%;
+}
+.plants_wrapper {
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.plants_list {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.box_home {
+    width: 20%;
+    margin-top: 250px;
+    margin-left: -200px;
 }

@@ -83,6 +83,39 @@ body {
 }
 .box_home {
     width: 20%;
-    margin-top: 250px;
+    margin-top: 330px;
     margin-left: -200px;
+}
+.plants_boximg {
+    position: relative;
+}
+.thorn {
+    top: 12%;
+    left: 80%; 
+    position: absolute;
+    background-color: #066F14;
+    width: 154px;
+    height: 50px;
+    padding: 10px 30px;
+    color: white;
+}
+.steam {
+    position: absolute;
+    top: 22%;
+    right: 70%;
+    background-color: #066F14;
+    width: 154px;
+    height: 50px;
+    padding: 10px 30px;
+    color: white;
+}
+.plant {
+    position: absolute; 
+    top: 80%;
+    left: 75%;
+    background-color: #066F14;
+    width: 154px;
+    height: 50px;
+    padding: 10px 30px;
+    color: white;
 }

@@ -196,3 +196,6 @@ body {
 .best_link:hover {
     color: green;
 }
+.box_bestimg {
+    display: flex;
+}

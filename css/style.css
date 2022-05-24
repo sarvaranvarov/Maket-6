@@ -66,6 +66,7 @@ body {
     font-weight: bold;
 }
 .plants_text {
+    margin-top: 40px;
     font-size: 16px;
     width: 75%;
 }
@@ -118,4 +119,80 @@ body {
     height: 50px;
     padding: 10px 30px;
     color: white;
+}
+.lots .container {
+    display: flex;
+}
+.lotos_imgbox {
+    display: flex;
+    margin-left: 70px;
+}
+.lots_textbox {
+    margin-top: 60px;
+    width: 30%;
+}
+.lotos_text {
+    margin-top: 10px;
+}
+.global {
+    margin-top: 90px;
+}
+.global .container {
+    display: flex;
+}
+.box_global {
+    position: relative;
+    background-color: green;
+    width: 446px;
+    height: 440px;
+}
+.box_globalimg {
+    position: absolute;
+    width: 446px;
+    height: 440%;
+}
+.global_boxtext {
+    width: 50%;
+    margin-left: 150px;
+}
+.global_link {
+    color: green;
+    transition: .5s;
+}
+.global_link:hover {
+    color: blue;
+}
+.global_title {
+    margin-top: 20px;
+    width: 60%;
+}
+.global_text {
+    width: 80%;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.gloabal_textcolor {
+    margin-top: 20px;
+    font-weight: 500;
+}
+.global_wrapper {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+}
+.best .container {
+    text-align: center;
+    margin-top: 90px;
+}
+.best_title {
+    font-size: 40px;
+}
+.best_link {
+    margin-top: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.best_link:hover {
+    color: green;
 }
